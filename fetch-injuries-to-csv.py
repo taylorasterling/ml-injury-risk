@@ -3,7 +3,7 @@ import os, time, json, requests
 import pandas as pd
 from pathlib import Path
 # 1) Your Sportradar API key
-API_KEY = os.getenv("SPORTRADAR_API_KEY", "klO4acd3rXA5zSVNgG5QFnwntscHjSAeOOYIZIVJ")
+API_KEY = os.getenv("SPORTRADAR_API_KEY", "YOUR_KEY")
 
 # 2) API endpoint
 BASE_URL = "https://api.sportradar.com/mlb/trial/v8/en/league/injuries.json"
